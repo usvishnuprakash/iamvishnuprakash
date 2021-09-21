@@ -26,7 +26,7 @@ export default function Skills() {
   ];
   return (
     <EachSection>
-      <HeadCom heading="skills" />
+      <HeadCom heading="Skills" />
       <SkillSecWrap>
         {skills.map((items, idx) => (
           <CardCom key={items.name + idx} name={items.name} icon={items.icon} />

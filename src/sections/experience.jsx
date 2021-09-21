@@ -10,7 +10,7 @@ export default function Experience() {
       <ExperienceWrap>
         <div className="iconwrap">
           <MdWork className="icon" />
-        </div>{" "}
+        </div>
         <ExContentwrap>
           <h1 className="c-name content">Berarkray Studio</h1>
           <h5 className="period content">jan/2021 - current</h5>

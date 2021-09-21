@@ -7,7 +7,7 @@ export default function AboutMe() {
     "I am a MERN stack web developer, strengths in node.js and react.js and also intermediate in next.js And I am so curious about how the core concept works in Javascript,engineering and absolutely in all thing around me";
   return (
     <EachSection>
-      <HeadCom heading={"about me"} />
+      <HeadCom heading={"About Me"} />
       <Atti>
         <h1>Actually...</h1>
       </Atti>
