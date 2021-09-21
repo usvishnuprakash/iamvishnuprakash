@@ -58,3 +58,14 @@ export const AttiAnim = keyframes`
     
     filter: blur(0rem);
   }`;
+
+export const pulseAnim = keyframes`
+  0% {
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }`;
