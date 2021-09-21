@@ -6,7 +6,7 @@ import { MdWork } from "react-icons/md";
 export default function Experience() {
   return (
     <EachSection>
-      <HeadCom heading="Education"></HeadCom>
+      <HeadCom heading="Experience"></HeadCom>
       <ExperienceWrap>
         <div className="iconwrap">
           <MdWork className="icon" />
