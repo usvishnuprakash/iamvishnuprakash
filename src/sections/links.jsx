@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { HeadCom } from "../common.com";
 
@@ -39,6 +40,11 @@ export default function Links() {
           </Icons>
         </a>
       </IconsWrap>
+      <ContactRouter>
+        <Link to="/contact">
+          <div className="button">Contact</div>
+        </Link>
+      </ContactRouter>
     </LinksSec>
   );
 }
@@ -80,5 +86,22 @@ export const Icons = styled.div`
     width: max-content;
     height: max-content;
     position: absolute;
+  }
+`;
+
+const ContactRouter = styled.div`
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .button {
+    width: max-content;
+    height: max-content;
+    padding: 20px 30px;
+    color: #121212;
+    font-size: 2rem;
+    background-color: #eeb76b;
   }
 `;

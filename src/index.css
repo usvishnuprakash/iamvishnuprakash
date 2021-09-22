@@ -21,3 +21,8 @@ body {
   font-family: "cerapro";
   src: url("../src/fonts/cerapro.otf") format("opentype");
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
