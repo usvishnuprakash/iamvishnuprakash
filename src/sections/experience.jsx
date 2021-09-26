@@ -5,9 +5,9 @@ import { MdWork } from "react-icons/md";
 
 export default function Experience() {
   return (
-    <EachSection>
+    <EachSection >
       <HeadCom heading="Experience"></HeadCom>
-      <ExperienceWrap>
+      <ExperienceWrap >
         <div className="iconwrap">
           <MdWork className="icon" />
         </div>
@@ -15,9 +15,7 @@ export default function Experience() {
           <h1 className="c-name content">Berarkray Studio</h1>
           <h5 className="period content">jan/2021 - current</h5>
           <h1 className="content">Full stack developer</h1>
-          <ul>
-            
-          </ul>
+          <ul></ul>
         </ExContentwrap>
       </ExperienceWrap>
     </EachSection>

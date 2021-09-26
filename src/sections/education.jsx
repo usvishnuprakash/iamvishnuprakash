@@ -5,7 +5,7 @@ import { BsStarHalf } from "react-icons/bs";
 
 export default function Education() {
   return (
-    <EachSection>
+    <EachSection >
       <HeadCom heading="Education"></HeadCom>
       <EdContentWrap>
         <div className="starwrap">
