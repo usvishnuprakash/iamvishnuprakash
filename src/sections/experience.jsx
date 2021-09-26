@@ -16,28 +16,7 @@ export default function Experience() {
           <h5 className="period content">jan/2021 - current</h5>
           <h1 className="content">Full stack developer</h1>
           <ul>
-            <li>Create couple of product websites.</li>
-            <li>
-              Working in majority features addding in their admin panel product.
-            </li>
-            <li>
-              And also working creating APIS and inserting mongoose schema new
-              in their existing project of server side code.
-            </li>
-            <li>
-              And i changed many old library and adding new technologies in
-              their product ,example of i add styled components in front-end ,
-              mongoose in backend ,next.js for product website front end for
-              better seo optimization.
-            </li>
-            <li>
-              I have well knowledge in css so i ownly create design and execute
-              in their websites.
-            </li>
-            <li>
-              And worked in promotions which are creating email templates and
-              add this feature in both front- end and back-end code.
-            </li>
+            
           </ul>
         </ExContentwrap>
       </ExperienceWrap>
